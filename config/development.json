@@ -3,7 +3,8 @@
 	"FB": {
 		"PAGE_ACCESS_TOKEN": "EAAGb5MwOgGQBAJyJ3JpQkmeYSo1AInH3KTFzwBtYfFqqKVTfOdZBuxQFagGfNb00FZCDoUuoyzZAqQ9qZANVZBFPxjKlnsfbF1ZAkelHgz40LbtZAiGa1BU56dS0w9ESijMcqT8eJohzBylXKEKhepz2wFmi69mmTmuRoscNnE78wZDZD",
 		"VERIFY_TOKEN": "series-ly",
-		"APP_SECRET": "0515dc1baa13471f9a8bbc27987a8545"		
+		"APP_SECRET": "0515dc1baa13471f9a8bbc27987a8545",
+		"SERVER_URL": "https://movieseriesbot.herokuapp.com/"
 	},
 	"OMDB_API_KEY": "270b7488"
 }
