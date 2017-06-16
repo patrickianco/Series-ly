@@ -20,7 +20,7 @@ const Wit = require('node-wit').Wit;
 const wit = new Wit({
 	accessToken: config.WIT_ACCESS_TOKEN
 });
-/////////////
+
 //OMDB
 const omdb = require('./omdb');
 
@@ -41,17 +41,12 @@ server.post('/', (req, res, next) => {
 
 		if(message.text) {
 			// Process the message here
-			//f.txt(sender, `You said: ${message.text}`);
+			f.txt(sender, `You said: ${message.text}`);
 
 			//WIT Message API
 			wit.message(message.text, {})
 				.then(omdb)
-				.then(response => {
-					f.txt(sender, response.text);
-					if(response.image){
-						f.img(sender, response.image);
-					}
-				})
+				.then(response => console.log(response))
 				.catch(error => console.log(error));
 		}
 

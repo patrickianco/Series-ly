@@ -25,7 +25,7 @@ const getInfo = data => {
         if(!error && response.statusCode == 200){
           // var obj = JSON.parse(body);
           // resolve(obj.results[0]);
-          resolve(createResponse(intent, JSON.parse(body)));
+          resolve(JSON.parse(body));
         }
         else{
           reject(error);
