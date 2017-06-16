@@ -41,12 +41,17 @@ server.post('/', (req, res, next) => {
 
 		if(message.text) {
 			// Process the message here
-			f.txt(sender, `You said: ${message.text}`);
+			//f.txt(sender, `You said: ${message.text}`);
 
 			//WIT Message API
 			wit.message(message.text, {})
 				.then(omdb)
-				.then(response => console.log(response))
+				.then(response => {
+					f.txt(sender, response.text);
+					if(response.image){
+						f.img(sender, response.image);
+					}
+				})
 				.catch(error => console.log(error));
 		}
 
