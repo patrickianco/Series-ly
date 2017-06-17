@@ -3,8 +3,8 @@
 	"FB": {
 		"PAGE_ACCESS_TOKEN": "EAAGb5MwOgGQBAMN9YakkPDnyARgiT0rohDsW7pB56ZCR7FnYSpiT8XndTpBWBhgZAfk8HixZCO5ppGLIrUhLtoIDIasFZA16qVaG6g7HdRiCjLGHb0NtSzjKYrU4FUSsfovwpfSTewtjH45WCRrrorIRiv6sMD9DzPWHhEa0RAZDZD",
 		"VERIFY_TOKEN": "series-ly",
-		"APP_SECRET": "0515dc1baa13471f9a8bbc27987a8545",
-		"SERVER_URL": "https://git.heroku.com/series-lybot.git"
+		"APP_SECRET": "1e2f1422e7389d7f41ca8ec70e0571e0",
+		"SERVER_URL": "https://git.heroku.com/serieslybot.git"
 	},
 	"OMDB_API_KEY": "270b7488"
 }
